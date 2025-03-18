@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donations</title>
+    <style>
+        /* Fondo elegante */
+        body {
+            background: linear-gradient(135deg, #0d1b2a, #1b263b); /* Azul oscuro degradado */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        /* Botón elegante */
+        .boton-pago {
+            background: linear-gradient(45deg, #ff8f00, #ff6f00); /* Degradado naranja */
+            color: white;
+            padding: 15px 50px;
+            font-size: 22px;
+            font-weight: bold;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 5px 15px rgba(255, 111, 0, 0.4);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            margin-bottom: 10px; /* Espacio entre botón y texto */
+        }
+
+        /* Efecto al pasar el cursor */
+        .boton-pago:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 111, 0, 0.6);
+        }
+
+        /* Efecto de clic */
+        .boton-pago:active {
+            transform: translateY(2px);
+            box-shadow: 0 4px 10px rgba(255, 111, 0, 0.3);
+        }
+
+        /* Texto debajo del botón */
+        .mensaje {
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://paypal.me/fas62?country.x=CL&locale.x=es_XC" class="boton-pago">Make your donation here</a>
+    <p class="mensaje">I want to have my first gaming PC</p>
+
+</body>
+</html>
